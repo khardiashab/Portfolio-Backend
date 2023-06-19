@@ -34,7 +34,7 @@ app.use(NotFound)
 app.use(ErrorHandler)
 
 // start
-const port = process.env.PORT || 7777
+const port = process.env.PORT || 3000
 
 const start =  async ()=>{
   try {
